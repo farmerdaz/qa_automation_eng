@@ -1,0 +1,23 @@
+{
+  "name": "qa-auto-interview",
+  "version": "1.0.0",
+  "description": "QA Automation Interview Project - Playwright + TypeScript + Page Object Model implementation for Swag Labs e2e testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:pom": "npx playwright test tests/swag-labs-pom.spec.ts",
+    "test:original": "npx playwright test tests/swag-labs.spec.ts",
+    "test:report": "npx playwright show-report",
+    "install:browsers": "npx playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2"
+  }
+}
