@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+.playwright/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE/Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Misc
+*.bak
+*.tmp
+
+# Ignore the generated report files
+playwright-report/
+test-results/
+blob-report/
